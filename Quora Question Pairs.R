@@ -9,7 +9,7 @@ library(wordcloud)
 
 ## Read the data
 quora=read.csv('quora_duplicate_questions.csv',header = TRUE,sep=',')
-quora<-quora[1:10000,]
+quora<-quora[1:1000,]
 set.seed(12345)
 
 ## Divide data into test and train
